@@ -315,6 +315,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar>
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
+                      const SizedBox(height: 12),
                       _buildIcon(i),
                       _buildLabel(i),
                     ],
