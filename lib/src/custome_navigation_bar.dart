@@ -312,7 +312,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar>
                     widget.onTap!(i);
                   },
                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       _buildIcon(i),
