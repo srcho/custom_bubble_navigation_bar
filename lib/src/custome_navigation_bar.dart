@@ -299,7 +299,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar>
         widget.borderRadius,
       ),
       child: Container(
-        height: height,
+        height: 90,
         width: MediaQuery.of(context).size.width,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.stretch,
